@@ -1,0 +1,10 @@
+How To Executed:
+1) Use the "npm install" command to install all node modules.
+2) Run the code using the command "npm start."
+To resolve an axios-related problem, use the command "npm install axios" or "npm i axios."
+
+In this project or test, I utilized the following items:
+1) Use the free API (openWeatherMap) 2) Make API calls with Axios.
+
+
+Overview: Enter your location to check the weather. Following that, you will obtain all pertinent information about the location, such as temperature, humidity, and wind.
