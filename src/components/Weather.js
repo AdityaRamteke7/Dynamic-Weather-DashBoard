@@ -9,7 +9,7 @@ const Weather = () => {
   const [userGroup, setUserGroup] = useState("");
   const [city, setCity] = useState("");
 
-  const API_KEY = "82c3910060f4ea06a4d9a63318ae63d1";
+  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
   const fetchWeather = async () => {
     try {
       const response = await axios.get(
@@ -21,7 +21,7 @@ const Weather = () => {
     }
   };
 
-  console.log(weatherData)
+  console.log(weatherData);
   return (
     <div className="container">
       <header>
